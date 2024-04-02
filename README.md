@@ -82,10 +82,6 @@ pd.get_dummies(df2,columns=["nom_0"])
 ![image](https://github.com/23008859/EXNO-3-DS/assets/139117979/f725312f-3f3f-4005-8cc9-64422fd3e140)
 # Binary Encoder
 ```
-pip install --upgrade category_encoders
-```
-![image](https://github.com/23008859/EXNO-3-DS/assets/139117979/a09f8c01-3e4f-4d5d-93d1-50adcfb34de7)
-```
 from category_encoders import BinaryEncoder
 df=pd.read_csv("/content/data.csv")
 df
